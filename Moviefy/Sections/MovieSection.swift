@@ -35,6 +35,7 @@ struct MovieSection: Section {
     func configureCell(collectionView: UICollectionView, indexPath: IndexPath) -> UICollectionViewCell{
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: MovieCell.self), for: indexPath) as! MovieCell
         cell.setContents(movie: items[indexPath.row])
+        
         return cell
     }
     
