@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         self.title = "Home"
         self.view.backgroundColor = UIColor.white
         fetchPopular()
-        fetchUpcoming()
+//        fetchUpcoming()
     }
     
     func setupCollectionView() {
